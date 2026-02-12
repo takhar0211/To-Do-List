@@ -5,9 +5,10 @@ from django.db import models
 # models.Model = "Make this class a database table."
 
 class tasks(models.Model):
-    name = models.CharField(max_length=100)
-    date = models.DateTimeField(auto_now_add=True)
-    description = models.TextField(blank=True, null=True)
+    task_name = models.CharField(max_length=100)
+    is_completed = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return self.name
+        return self.task_name
