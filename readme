@@ -1,0 +1,34 @@
+# 📝 To-Do List Application
+
+A task management web application built using Python and Django that allows users to create and manage their daily tasks efficiently.
+
+---
+
+## 📌 Overview
+
+This project is a web-based To-Do List system where users can add and manage tasks through a browser interface. It demonstrates the integration of backend logic with a database and a frontend interface.
+
+The application stores tasks in a local SQLite database and allows users to interact with them dynamically.
+
+---
+
+## ⚙️ Technologies Used
+
+- **Python** – Core programming language  
+- **Django** – Backend framework  
+- **SQLite** – Database for storing tasks  
+- **HTML** – Frontend structure  
+
+---
+
+## 🔄 Core Operations (CRUD)
+
+This project implements basic CRUD functionality:
+
+- ➕ **Create** – Add new tasks  
+- 📄 **Read** – View all existing tasks  
+- ❌ **Delete** – Remove tasks  
+- ✏️ (Extendable) – Can be enhanced to support update/edit functionality  
+
+---
+
